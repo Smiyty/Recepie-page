@@ -1,0 +1,112 @@
+body{
+    background-color:  hsl(30, 54%, 90%);
+ 
+}
+
+.wrapper{
+    margin: auto;
+    max-width:800px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+body ,p{
+    font-family: "Outfit", sans-serif ;
+    font-size: 16px;
+}
+
+h1 , h2  {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+    color:hsl(14, 45%, 36%);
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+}
+
+
+
+/* preparation time box */
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+
+    h3{
+        color: hsl(332, 51%, 32%);
+    }
+
+li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+}
+
+
+li{
+    line-height: 2.5;
+    padding-left: 15px;
+    color:hsl(30, 10%, 34%);
+}
+
+/* box ending*/
+
+
+
+/* Ingridients */
+.sastojci{
+    h2{
+        color:hsl(14, 45%, 36%);
+    }
+
+    li::marker{
+        color: hsl(14, 45%, 36%);
+    }
+
+}
+
+/* Ingridients kraj */
+
+
+/*Nutrition*/
+
+.nutrije{
+    p{
+        display: inline-block;
+    }
+}
+
+
+.kalorije{
+    text-align: left;
+    width: 30%;
+}
+
+.brojevi{
+    text-align: right;
+    width: 25%;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+  
+
+
+
+
+
+
+
+
+
